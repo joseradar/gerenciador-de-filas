@@ -23,7 +23,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect()->route('queue.index');
 });
 
 Route::get('filas', [QueueController::class, 'index'])->name('queue.index');
