@@ -26,5 +26,5 @@ php artisan serve
 * /filas: Esta rota permite ao usuário gerar tickets de senhas para diferentes filas. Cada fila pode ter configurações específicas e prioridades.
 * /painel: A rota do painel exibe as senhas que estão sendo chamadas atualmente. É útil para os operadores que gerenciam a ordem das chamadas.
 * /chamar: Na rota de chamar, os operadores podem chamar as próximas senhas. Esta funcionalidade garante que as senhas sejam chamadas de maneira ordenada e eficiente.
-* /relatorios: A rota de relatórios apresenta um resumo diário das atividades. Inclui informações como o número de tickets gerados, senhas chamadas e o tempo médio de atendimento.
+* /relatorios: A rota de relatórios apresenta um resumo diário das atividades. Inclui informações como o número de tickets gerados e o tempo médio de atendimento.
 
